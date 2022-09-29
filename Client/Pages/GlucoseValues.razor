@@ -1,9 +1,38 @@
 ﻿@page "/glucosevalues"
+@inject IGlucoseValuesService GlucoseValuesService
 
 <PageTitle>Glucose Values</PageTitle>
 
 <h3>Glucose Values</h3>
 
-@code {
+<table>
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Value</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var value in GlucoseValuesService.glucoseValues)
+        {
+            <tr>
+                <td>@value.FirstName</td>
+                <td>@value.LastName</td>
+                <td>@value.Value</td>
+                <td>
 
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+</table>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await GlucoseValuesService.GetGlusoeValues();
+    }
 }

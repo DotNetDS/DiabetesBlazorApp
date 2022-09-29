@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesBlazorApp.Server", "Server\DiabetesBlazorApp.Server.csproj", "{B35C19A8-AFB6-4268-A316-7157F84DBB24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesBlazorApp.Server", "Server\DiabetesBlazorApp.Server.csproj", "{B35C19A8-AFB6-4268-A316-7157F84DBB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesBlazorApp.Client", "Client\DiabetesBlazorApp.Client.csproj", "{8B38E8E8-4888-4FC8-99FA-732B64CB3337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesBlazorApp.Client", "Client\DiabetesBlazorApp.Client.csproj", "{8B38E8E8-4888-4FC8-99FA-732B64CB3337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesBlazorApp.Shared", "Shared\DiabetesBlazorApp.Shared.csproj", "{0AAB192A-2A20-4EF7-A97C-A70F8E44B400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiabetesBlazorApp.Shared", "Shared\DiabetesBlazorApp.Shared.csproj", "{0AAB192A-2A20-4EF7-A97C-A70F8E44B400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
